@@ -77,13 +77,6 @@ export const Main = async () => {
   application.use(leaveRoutes);
   application.use(userRoutes);
   
-
-
-  logging.log("----------------------------------------");
-  logging.log("Define Routing Error");
-  logging.log("----------------------------------------");
-  application.use(errorNotFound);
-
   logging.log("----------------------------------------");
   logging.log("Starting Server");
   logging.log("----------------------------------------");
